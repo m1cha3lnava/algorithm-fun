@@ -5,11 +5,11 @@ import Question from "../../components/Question";
 class Home extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
+      <>
+        
         <h1>Algorithm Challenge</h1>
-        <Question />
-      </div>
+        <h2>Question 1</h2>
+      </>
     );
   }
 }
