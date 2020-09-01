@@ -6,7 +6,9 @@ class Home extends Component {
     return (
       <div className="container">
         <h1>Algorithm Challenge</h1>
-        <Question title= "Question 1"/>
+        <Question title= "Question 1" text="Sample Question text"/>
+        <Question title= "Question 2"/>
+        <Question title= "Question 3"/>
       </div>
     );
   }

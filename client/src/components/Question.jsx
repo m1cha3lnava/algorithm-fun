@@ -1,10 +1,13 @@
 import React from 'react';
+import InputBox from './InputBox';
 
 const Question = (props) => {
     return (
-        <div>
+        <>
         <h2>{props.title}</h2>
-        </div>
+        <p>{props.text}</p>
+        <InputBox />
+        </>
     );
 };
 
