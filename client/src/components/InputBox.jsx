@@ -6,7 +6,7 @@ class InputBox extends Component {
       <>
         <div className="input-group">
           <div className="input-group-prepend">
-            <span className="input-group-text">With textarea</span>
+            <span className="input-group-text">Type something</span>
           </div>
           <textarea
             className="form-control"
