@@ -4,10 +4,10 @@ import Question from "../../components/Question";
 class Home extends Component {
   render() {
     return (
-      <>
+      <div className="container">
         <h1>Algorithm Challenge</h1>
-        <Question />
-      </>
+        <Question title= "Question 1"/>
+      </div>
     );
   }
 }
