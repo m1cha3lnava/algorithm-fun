@@ -21,7 +21,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-mongoose
+/* mongoose
   .connect(process.env.MONGODB_URI || "mongodb://localhost/mern-starter", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -32,7 +32,7 @@ mongoose
   .catch((err) => {
     console.log("Unable to connect to database.");
     console.log(err);
-  });
+  }); */
 
 app.listen(PORT, () => {
   console.log(`Express server running on http://localhost:${PORT}`);

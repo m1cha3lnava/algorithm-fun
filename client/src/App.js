@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <Switch>
+      <Switch>        
         <Route exact path="/" component={Home} />
         <Route component={NoMatch} />
       </Switch>
