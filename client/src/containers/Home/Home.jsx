@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
+import Question from "../../components/Question";
 
 class Home extends Component {
   render() {
@@ -7,7 +8,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <h1>Algorithm Challenge</h1>
-        <h2>Question 1</h2>
+        <Question />
       </div>
     );
   }
