@@ -20,8 +20,8 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <NavList style="nav-item" link="/geometry" text="Geometry" />
-          <NavList style="nav-item" link="/highscores" text="High Scores" />
+          <NavList ListStyle="nav-item" link="/geometry" text="Geometry" />
+          <NavList ListStyle="nav-item" link="/highscores" text="High Scores" />
         </ul>
       </div>
     </nav>

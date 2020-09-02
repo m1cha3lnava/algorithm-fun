@@ -1,10 +1,10 @@
 import React from 'react';
 
-const NavList = (props) => {
+const NavList = ({ListStyle, link, text}) => {
     return (
-        <li className={props.style}>
-        <a className="nav-link" href={props.link}>
-          {props.text}
+        <li className={ListStyle}>
+        <a className="nav-link" href={link}>
+          {text}
         </a>
       </li>
     );
